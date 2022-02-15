@@ -1,11 +1,9 @@
 # Pinder
 
 This project is just an excuse to learn some basic path-finding algorithms,
-cmake and ncurses, as well as refreshing my C++ coding.
+cmake and ncurses, as well as refreshing my C++.
 
 # Compilation
-
-_TODO_
 
 Debug mode compilation is enabled by default. There's a line to change it to
 Release in the `CMakeList.txt` file in the root directory.
@@ -15,6 +13,7 @@ diagonals, which can be changed by removing `ALLOW_DIAGONALS` definition from
 the `CMakeList.txt` file inside the `src/` folder.
 
 # Sources
+
 I used
 [Introduction to the A* Algorithm from Red Blob Games](https://www.redblobgames.com/pathfinding/a-star/introduction.html)
 as reference for understanding and coding the algorithms (a good part of the
@@ -38,6 +37,7 @@ colors are not defined in ncurses (or so I think).
 # License
 ![GPLv3 Logo](https://www.gnu.org/graphics/gplv3-with-text-136x68.png)
 
+>Copyright (C) Martín E. Zahnd
 >This file is part of Pinder.
 >
 >Pinder is free software: you can redistribute it and/or modify
